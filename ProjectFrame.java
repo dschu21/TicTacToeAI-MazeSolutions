@@ -55,7 +55,7 @@ public class ProjectFrame {
 		}
 		else if (number==1){
 			frame.setSize(WIDTH1,HEIGHT1);
-			frame.add(new MouseMaze(WIDTH1,HEIGHT1));
+			frame.add(new MouseMaze(WIDTH1,HEIGHT1, null));
 		}
 		else
 			System.exit(0);
