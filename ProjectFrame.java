@@ -51,7 +51,7 @@ public class ProjectFrame {
 		int number = JOptionPane.showOptionDialog(frame,"Please choose which game you would like to play:", "Choose your selection", JOptionPane.DEFAULT_OPTION,JOptionPane.PLAIN_MESSAGE, null, options, options[0]);
 		if(number==0){
 			frame.setSize(WIDTH,HEIGHT);
-		frame.add(new TicTacToe(WIDTH,HEIGHT));
+			frame.add(new TicTacToe(WIDTH,HEIGHT));
 		}
 		else if (number==1){
 			frame.setSize(WIDTH1,HEIGHT1);
