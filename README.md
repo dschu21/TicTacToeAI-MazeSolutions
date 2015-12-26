@@ -10,5 +10,6 @@ Game Modes:
 -Computer vs. Computer  
 
 Mouse Maze  
+
 -Maze Generator  
 -Maze Solver  
